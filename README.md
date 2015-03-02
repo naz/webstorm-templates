@@ -11,3 +11,12 @@ IIFE (Immediately-Invoked Function Expressions) aka SEAF Self-Executing Anonymou
   $END$
 }());
 ```
+Same as above with `use strict` [mode](http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/) up top.
+
+``` javascript
+(function(){
+  'use strict';
+  
+  $END$
+}());
+```
